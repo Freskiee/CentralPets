@@ -39,9 +39,16 @@ export const Footer: React.FC = () => {
             <svg width="32" height="12" viewBox="0 0 32 12"><text x="2" y="9" fontSize="7" fill="#003087" fontWeight="bold">PayPal</text></svg>
           </div>
           <div className="flex space-x-3 mt-1">
-            <Facebook className="h-5 w-5 text-gray-400 hover:text-pet-blue-400 cursor-pointer transition-colors" />
-            <Instagram className="h-5 w-5 text-gray-400 hover:text-pet-pink-400 cursor-pointer transition-colors" />
-          </div>
+  <a href="https://www.facebook.com/Biospii" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+    <Facebook className="h-5 w-5 text-gray-400 hover:text-pet-blue-400 cursor-pointer transition-colors" />
+  </a>
+  <a href="https://www.instagram.com/biospi_mx/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+    <Instagram className="h-5 w-5 text-gray-400 hover:text-pet-pink-400 cursor-pointer transition-colors" />
+  </a>
+  <a href="https://biospi.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Sitio web">
+    <Globe className="h-5 w-5 text-gray-400 hover:text-pet-coral-400 cursor-pointer transition-colors" />
+  </a>
+</div>
           <p className="text-[10px] text-gray-400 mt-1"> 2024 Central Pets</p>
         </div>
         {/* Escritorio y tablet */}
