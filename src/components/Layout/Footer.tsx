@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
             <p className="text-gray-300 text-center md:text-left">
               Tu tienda de confianza para accesorios de mascotas. Calidad y amor para todos tus compañeros peludos, emplumados y escamosos.
             </p>
-            <div className="flex space-x-4 justify-center mt-2">
+            <div className="flex space-x-4 justify-center mt-2 z-10">
               <a href="https://www.facebook.com/Biospii" target="_blank" rel="noopener noreferrer" className="hover:text-pet-coral-400 transition-colors" aria-label="Facebook">
                 <Facebook className="h-6 w-6" />
               </a>
